@@ -1024,5 +1024,11 @@
       "categorie": "palmiers d'intérieur",
       "image": "https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910673_001.jpg"
     }
+  ],
+  "categories": [
+    { "id": 1, "label": "cactus et plantes grasses" },
+    { "id": 2, "label": "bonsaïs" },
+    { "id": 3, "label": "plantes vertes" },
+    { "id": 4, "label": "palmiers d'intérieur" }
   ]
 }
