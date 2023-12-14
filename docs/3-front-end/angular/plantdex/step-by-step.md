@@ -541,7 +541,7 @@ export class CardComponent implements OnInit {
 On pense à faire notre commit ! avec le message : `5 - plant card + communication parent enfant`
 :::
 
-## Partie 6 : Mise en place du filtre par catégories
+<!-- ## Partie 6 : Mise en place du filtre par catégories
 
 <div class="container-img-100">
   <img
@@ -706,4 +706,5 @@ On pense à faire notre commit ! avec le message : `6 - filtre par categorie + i
 
 :::info
 On pense à faire notre commit ! avec le message : `7 - barre de recherche + tri`
-::: -->
+:::
+-->
