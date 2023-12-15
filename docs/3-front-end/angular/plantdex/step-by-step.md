@@ -437,7 +437,7 @@ import { Plant } from "../../models/plant";
 @Component({
   selector: "app-plant-list",
   templateUrl: "./plant-list.component.html",
-  styleUrls: ["./plant-list.component.scss"],
+  styleUrls: ["./plant-list.component.css"],
 })
 export class PlantListComponent implements OnInit {
   @Input() plantsRecupDeLaHome!: Plant[];
@@ -481,14 +481,14 @@ ng g c components/card
 
 ### Mise à jour du composant `CardComponent`
 
-```ts title=plant-card.component.ts
+```ts title=card.component.ts
 import { Component, Input, OnInit } from "@angular/core";
 import { Plant } from "src/app/models/plant";
 
 @Component({
   selector: "app-card",
   templateUrl: "./card.component.html",
-  styleUrls: ["./card.component.scss"],
+  styleUrls: ["./card.component.css"],
 })
 export class CardComponent implements OnInit {
   @Input() unePlanteAAfficher!: Plant;
@@ -564,7 +564,7 @@ import { Component, EventEmitter, OnInit, Output } from "@angular/core";
 @Component({
   selector: "app-side-bar",
   templateUrl: "./side-bar.component.html",
-  styleUrls: ["./side-bar.component.scss"],
+  styleUrls: ["./side-bar.component.css"],
 })
 export class SideBarComponent implements OnInit {
   @Input() categoriesRecupDeLaHome!: string[];
